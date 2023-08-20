@@ -1,0 +1,93 @@
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+
+.img-celular {
+    width: 350px;
+}
+
+img {
+    width: 160px;
+
+}
+
+.imagens{
+    position: relative;
+    
+
+
+}
+
+.img-insta{
+
+height: 400px;
+position: absolute;
+left: 127px;
+top: 20px;
+transition: 2s ease-in-out;
+}
+
+
+
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+input {
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 1px;
+    margin-top: 10px;
+
+
+
+}
+button{
+    background: blue;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+
+
+}
+.facebook{
+    text-align: center;
+    margin-top: 20px;   
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.esqueceu{
+   text-align: center;
+    margin-top: 20px;   
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold 
+}
